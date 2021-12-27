@@ -46,7 +46,6 @@ button{
 }
 .btn-darkblue{
     --btn-clr: #2F3245;
-    /* background: var(--btn-clr); */
 }
 #header{
     background: transparent;
@@ -56,7 +55,6 @@ button{
     width: 100%;
     z-index: 999;
     height: var(--header-height);
-    /* border: 2px solid green; */
     display: flex;
     align-items: center;
     color: white;
@@ -67,16 +65,13 @@ button{
     justify-content: space-between;
     width: 100%;
     margin: auto;
-    
     padding: 0 1em;
-    /* border: 2px solid green; */
 }
 .primary-nav i {
     color: white;
 }
 .navbar-left{
     width: 30%;
-    /* border: 2px solid green; */
     display: flex;
     align-items: center;
     gap: 0 0.5em;
@@ -89,7 +84,6 @@ button{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    /* border: 2px solid red; */
 }
 .nav-links{
     list-style: none;
@@ -99,10 +93,8 @@ button{
     width: 100%;
     max-width: 640px;
     min-width: 220px;
-    /* border: 2px solid red; */
 }
 .nav-link {
-    /* border: 2px solid red; */
     margin-right: 0.8em;
 }
 .link{
@@ -116,23 +108,10 @@ button{
     border-bottom: 4px solid #E65F66;
     padding-bottom: 0.2em;
 }
-
-/**************************/
-/*****HAMBURGER MENU*******/
 #hamburgerBtn{
     cursor: pointer;
     display: none;
 }
-/* #hamburger-menu{
-    position: absolute;
-    width: 100%;
-    height: 20vh;
-    top: 8vh;
-    left: 0;
-    background: black;
-    z-index: 1000;
-    display: none;
-} */
 
 /**************************/
 /***********MAIN***********/
@@ -148,7 +127,6 @@ button{
     position: relative;
     width: 100%;
     margin: 0 auto;
-    
     height: 100vh;
 }
 .coverImageContainer{
@@ -159,12 +137,9 @@ button{
     z-index: -1;
 }
 .coverImage{
-    /* min-height: 80vh; */
-    /* max-height: 100vh; */
     width: 100%;
     object-fit: cover;
     height: 100%;
-    /* object-position: center; */
 }
 .title{
     color: white;
@@ -201,7 +176,6 @@ button{
 }
 .destinations{
     display: flex;
-    /* border: 2px solid red; */
     width: 90%;
     max-width: 1200px;
     margin: 2em auto;
@@ -213,7 +187,6 @@ button{
     max-width: 300px;
     margin: auto;
     aspect-ratio: 1;
-    /* border: 2px solid green; */
     position: relative;
     cursor: pointer;
 }
@@ -251,7 +224,6 @@ button{
     margin-top: 1.5em;
 }
 .tours-container{
-    /* border: 2px solid red; */
     width: 70%;
     margin: 2em auto;
 }
@@ -261,7 +233,6 @@ button{
 }
 .tour{
     width: 30%;
-    /* height: 50vh; */
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     cursor: pointer;
     transition: all 250ms ease-in-out;
@@ -299,19 +270,16 @@ button{
 /***Section 4***/
 .section4{
     height: 95vh;
-    /* border: 2px solid red; */
 }
 .section4-title {
     color: white;
     text-align: center;
     font-size: var(--fs-large);
     margin-top: 2em;
-    /* border: 2px solid red; */
 }
 .cover2-container{
     width: 100%;
     height: inherit;
-    /* border: 2px solid green; */
     position: relative;
 }
 .cover2{
@@ -334,7 +302,6 @@ button{
     background: #fff;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     padding: 2em ;
-    /* font-family: Georgia, serif; */
     font-size: 1.3rem;
     font-style: italic;
     line-height: 1.45;
@@ -355,7 +322,6 @@ button{
 /***************/
 /***Section 5***/
 .section5 {
-    /* border: 2px solid green; */
     display: flex;
     align-items: center;
 }
@@ -364,13 +330,11 @@ button{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
     margin: 2em auto;
-    /* border: 2px solid green; */
     width: 90%;
     max-width: 1000px;
 }
 .gallery > div {
     flex: 0 1 18em;
-    /* height: 35vh; */
 }
 .gallery-img{
     width: 100%;
@@ -416,9 +380,7 @@ button{
 .footer-container{
     display: flex;
     width: 90%;
-    /* min-width: 720px; */
     margin: 2em auto;
-    /* border: 2px solid red; */
     justify-content: space-between;
     gap: 0.5em;
 }
@@ -470,9 +432,6 @@ button{
     .link{
         color: #252525;
     }
-    .link:hover{
-        /* color: #2F3245; */
-    }
     .navbar-left{
         width: 95%;
     }
@@ -494,7 +453,6 @@ button{
     }
     .tours-container{
         width: 90%;
-        /* border: 2px solid red; */
     }
     .quote{
         left: 15%;
