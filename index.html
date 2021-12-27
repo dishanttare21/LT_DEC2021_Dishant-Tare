@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Tours</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="primary-nav">
+            <div class="navbar-left">
+                <button id="hamburgerBtn"><i class="fas fa-bars fa-2x" id="hamburger"></i></button>
+                <img src="images/logo.png" alt="" class="logo">
+            </div>
+            <div class="navbar-right">
+                <ul class="nav-links">
+                    <li class="nav-link active"><a href="/" class="link">Home</a></li>
+                    <li class="nav-link"><a href="/about" class="link">Destinations</a></li>
+                    <li class="nav-link"><a href="/about" class="link">Tours</a></li>
+                    <li class="nav-link"><a href="/about" class="link">About</a></li>
+                    <li class="nav-link"><a href="/contact" class="link">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section1">
+            <h1 class="title">Welcome to <br>
+                Easy Tours
+            </h1>
+            <button class="btn" id="toursBtn">See Tours ></button>
+            <div class="coverImageContainer">
+                <img src="images/coverImg.png" data-source="images/coverImgMobile.png" alt="" class="coverImage">
+            </div>
+        </section>
+        <section class="section2">
+            <h1 class="section2-title">Recommended Destinations</h1>
+            <div class="destinations">
+                <div class="destination">
+                    <h2 class="destination-name">Europe</h2>
+                    <img src="https://images.unsplash.com/photo-1471874708433-acd480424946?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        alt="">
+                </div>
+                <div class="destination">
+                    <h2 class="destination-name">USA</h2>
+                    <img src="https://images.unsplash.com/photo-1485738422979-f5c462d49f74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1199&q=80" alt="">
+                </div>
+                <div class="destination">
+                    <h2 class="destination-name">Africa</h2>
+                    <img src="https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YWZyaWNhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="">
+                </div>
+                <div class="destination">
+                    <h2 class="destination-name">Canada</h2>
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FuYWRhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="">
+                </div>
+                <div class="destination">
+                    <h2 class="destination-name">Australia</h2>
+                    <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                </div>
+                <div class="destination">
+                    <h2 class="destination-name">New Zealand</h2>
+                    <img src="https://images.unsplash.com/photo-1531804226530-70f8004aa44e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="">
+                </div>
+                <div class="destination">
+                    <h2 class="destination-name">Egypt</h2>
+                    <img src="https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                </div>
+                <div class="destination">
+                    <h2 class="destination-name">Iceland</h2>
+                    <img src="https://images.unsplash.com/photo-1476610182048-b716b8518aae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1259&q=80" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <h1 class="section3-title">Popular Tours</h1>
+            <div class="tours-container">
+                <div class="tours">
+                    <div class="tour">
+                        <img src="images/tours/tour1.png" alt="" class="tour-image">
+                        <div class="tour-text">
+                            <p class="tour-name">Maldives Tour</p>
+                            <p class="tour-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut tenetur
+                                culpa minima nesciunt, eveniet ea?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tour">
+                        <img src="images/tours/tour2.png" alt="" class="tour-image">
+                        <div class="tour-text">
+                            <p class="tour-name">Best of Sri Lanka</p>
+                            <p class="tour-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut tenetur
+                                culpa minima nesciunt, eveniet ea?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tour">
+                        <img src="images/tours/tour3.png" alt="" class="tour-image">
+                        <div class="tour-text">
+                            <p class="tour-name">Explore Dubai</p>
+                            <p class="tour-desc">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut tenetur
+                                culpa minima nesciunt, eveniet ea?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button id="moreTours" class="btn">See more ></button>
+            </div>
+        </section>
+        <section class="section4">
+            <div class="cover2-container">
+                <img src="images/cover2.jpg" alt="" class="cover2">
+                <blockquote class="quote">
+                    Time travel used to be thought of as just science fiction, but Einstein's general theory of
+                    relativity allows for the possibility that we could warp space-time so much that you could go
+                    off in a rocket and return before you set out.
+                </blockquote>
+            </div>
+
+        </section>
+        <section class="section5">
+            <div class="gallery">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80"
+                        alt="" class="gallery-img">
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1610234744207-0524f25443aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                        alt="" class="gallery-img">
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1576595014186-c66433362597?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTUwfHxhZHZlbnR1cmV8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                        alt="" class="gallery-img">
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1549631888-76dc165b2474?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGFkdmVudHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=600&q=60"
+                        alt="" class="gallery-img">
+                </div>
+                <div class="gallery-text">
+                    <a href="/gallery" class="g-text">Photo <br> Gallery</a>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1523653049681-701d71cf57c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGFkdmVudHVyZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=600&q=60"
+                        alt="" class="gallery-img">
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1564946059983-11c6490ee589?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjM2fHxhZHZlbnR1cmV8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                        alt="" class="gallery-img">
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1600813828722-cde42dc764d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=913&q=80"
+                        alt="" class="gallery-img">
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/flagged/photo-1559424176-40fb0df9882d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzM5fHxhZHZlbnR1cmV8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                        alt="" class="gallery-img">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/packageTours">Package Tours</a></li>
+                    <li><a href="/topTouristAttractions">Top Tourist Attractions</a></li>
+                    <li><a href="/topTravelDestinations">Top Travel Destinations</a></li>
+                    <li><a href="/hotels">Hotels</a></li>
+                    <li><a href="/flights">Flights</a></li>
+                    <li><a href="/trains">Buses</a></li>
+                    <li><a href="/gallery">Travel Gallery</a></li>
+                    <li><a href="/testimonials">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="about-us">
+                <h4>About Us</h4>
+                <ul>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/help">Help Center</a></li>
+                    <li><a href="/careers">Careers</a></li>
+                    <li><a href="/tc">Terms and Conditions</a></li>
+                    <li><a href="/privacyPolicy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li class="social-links">
+                        <a href="/instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="/facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="/twitter"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fas fa-phone-alt"></i></a>
+                        <span>+91 937XXXX721</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
